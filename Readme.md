@@ -8,5 +8,5 @@ This repository contains my journey learning JavaScript from zero.
 - Become confident with JS
 
 ## Author : 
-Nour El Houda OKMID 
+Nour El Houda OKMID
 
