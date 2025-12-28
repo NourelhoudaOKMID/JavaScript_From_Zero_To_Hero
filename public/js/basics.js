@@ -52,6 +52,60 @@ console.log(` I study at ${schoolName} and I am ${age} years old and I'm from ${
 // - var : old style variable
 
 
+/************** 
+    DATA TYPES
+ **************/
+
+//* What are data types : Data types define the kind of value a variable holds in JavaScript
+
+// Data types section
+console.log("---------------Example 1: Number ----------------");
+//this `studentAge` to avoid conflict with `age` in Variables section because if you declare let age = 29; again in the same scope , it will throw an error 
+
+let studentAge = 29;  // integer number "int"
+let height = 1.69;      //decimal number " float"   
+
+console.log("Height :", height);
+console.log("Age :" , age );
+
+
+// calculations Examples  : 
+let a = 10 ;
+let b =20 ;
+
+
+console.log("Sum :", a + b,"€" ); // 30€
+console.log("Difference : ", b - a ); // 10
+console.log("Difference : ", a * b ); // 200
+console.log("Division : " , a / b  ); // 0.5
+
+
+
+// String : any text inside quotes 
+console.log("-------------Example 1 : of string  --------------");
+
+let firstName = "Hello "
+let secondName = "World"
+
+console.log("first Name: " , firstName + "\n" + "secondName: " , secondName); // "\n" make you  able to return to the new ligne
+
+// we can combine by + or use the template ` ${firstName}`
+
+// using template :
+console.log(` The best ${firstName} ${secondName} , Welcome to JS `);
+
+
+
+
+// Boolean 
+
+console.log("----------Example 2 : of Boolean ------------");
+let isStudent = true;
+let isGraduated = false ; 
+
+console.log("Is student ? ", isStudent); // true 
+console.log("Is graduated ? " , isGraduated); // false 
+// we are going to used in conditions and logic and you 're going to understand 
 
 
 
