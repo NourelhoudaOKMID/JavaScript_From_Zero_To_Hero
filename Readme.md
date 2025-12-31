@@ -37,6 +37,7 @@ This repository is designed for **absolute beginners** who want to learn JavaScr
 - public/js/
 -          |-- basics.js       // variables , data types , strings 
 -          |-- conditions.js   // if , else , switch 
+-          | --Methods.js      // methods of objects and arays 
 -          |-- loops.js        // for , while , do ... while 
 -          |-- functions.js    // functions 
 -          |-- classes.js      // classes && objects  
