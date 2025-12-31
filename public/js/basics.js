@@ -125,12 +125,16 @@ let c = "JS";      //string
 let h = false;     // boolean 
 let u;             // undefined
 let x = null ;     // null
-
+let i=  {} ; //object
 console.log(typeof n);
 console.log(typeof c);
 console.log(typeof h);
 console.log(typeof u);
-console.log(typeof x); // object
+console.log(typeof x); 
+console.log(typeof i);
+
+
+// -------------------------------------------------------------------------------------------
 
 console.log(typeof 10);
 console.log(typeof "hello");
@@ -138,6 +142,49 @@ console.log(typeof true);
 // ? typeof  null returns " object " -> this is a  known JavaScript bug  
 console.log(typeof null); 
 console.log(typeof undefined);
+console.log(typeof {});
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
