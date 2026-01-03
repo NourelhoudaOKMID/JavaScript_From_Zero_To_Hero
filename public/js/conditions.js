@@ -48,8 +48,9 @@ if (score >= 90) {
 
 
 // ? the '==' checks the value of the variables 
-const the_score = "70"  
-if (the_score == 70) {
+const the_score = "70"   // String 
+if (the_score == 70)     // Number 
+    {     
     console.log("you passed  the exam ");
     
 }else{
@@ -58,6 +59,16 @@ if (the_score == 70) {
 } // output : you passed the exam because  as we learned that the '=='  can check  just the value of the variables  
 
 
+
+const the_second_score = "80"  // String 
+if (the_second_score === 80) 
+    {
+    console.log("congratulation ,  you passed the exam ");
+    
+} else {
+    console.log("OOops  , you failed the exam ");
+    
+}// output : OOops  , you failed the exam  because  as we learned that the '==='  checks   the value && the Data type  of the variables  
 
 
 
