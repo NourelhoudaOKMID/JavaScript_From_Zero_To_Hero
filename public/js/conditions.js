@@ -28,6 +28,7 @@ if (hour < 12) {
 
 
 
+
 //^ Example 3: if...else  if...else  statement 
 let score = 75;
 
@@ -42,9 +43,27 @@ if (score >= 90) {
     console.log("Failed");
 
 }
+//^ Example 4: if...else  with ` ===` checks both value and type // and  ` ==` checks the  value 
 
 
-//^EXample 4 : Switch statement 
+
+// ? the '==' checks the value of the variables 
+const the_score = "70"  
+if (the_score == 70) {
+    console.log("you passed  the exam ");
+    
+}else{
+    console.log('you failed the exam ');
+    
+} // output : you passed the exam because  as we learned that the '=='  can check  just the value of the variables  
+
+
+
+
+
+
+
+//^EXample 5 : Switch statement 
 
 let day = 3; // 1= Monday , 2 = Tuesday , 3= Wednesday
 
@@ -64,7 +83,9 @@ switch (day) {
 
 
 }
-//^ Example 5: Switch 
+
+
+//^ Example 6: Switch 
 // switch case with an example of Conditions 
 let year = parseInt(prompt(" enter the year : "))
 
